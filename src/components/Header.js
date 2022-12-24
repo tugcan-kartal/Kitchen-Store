@@ -8,18 +8,18 @@ function Header() {
 
   return (
     <>
-      <div className='bg-blue-600'>
+      <div className="bg-left bg-no-repeat bg-cover opacity-0.1" style={{backgroundImage: 'url(https://images.pexels.com/photos/172296/pexels-photo-172296.jpeg?cs=srgb&dl=pexels-fwstudio-172296.jpg&fm=jpg)'}}>
         
-        <div className='container flex h-16 justify-between items-center pl-32 pr-64 text-sm font-medium font-sans text-white	'>
+        <div className='container flex h-16 justify-between items-center pl-32 pr-64 text-sm font-medium font-sans text-white sm:mx-auto'>
           
           <a href='#'>
-            <img className="w-16 h-16" src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Eo_circle_light-blue_white_letter-n.svg/1200px-Eo_circle_light-blue_white_letter-n.svg.png' />
+            <img className="w-16 h-16 hidden 2xl:flex" src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Eo_circle_light-blue_white_letter-n.svg/1200px-Eo_circle_light-blue_white_letter-n.svg.png' />
           </a>
 
-          <div className='flex gap-x-2 items-center'>
+          <div className='gap-x-2 items-center hidden lg:flex'>
             <div>All Products</div>
             <AiOutlineDown size={10} />
-            <input className='w-96 py-2 rounded-lg outline-none text-black ml-4' placeholder=" Enter keywords"></input>
+            <input className='w-96 py-2 rounded-lg outline-none text-black ml-4 mr-2' placeholder=" Enter keywords"></input>
           </div>
 
           <nav className='flex gap-x-6 items-center'>
@@ -31,7 +31,7 @@ function Header() {
 
             <br></br>
 
-            <div>
+            <div className='hidden sm:flex '>
               <ReactFlagsSelect
                 onSelect={code => setSelected(code)}
                 selected={selected}
