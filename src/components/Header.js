@@ -11,7 +11,7 @@ function Header() {
       <div className="bg-left bg-no-repeat bg-cover opacity-0.1" style={{backgroundImage: 'url(https://images.pexels.com/photos/172296/pexels-photo-172296.jpeg?cs=srgb&dl=pexels-fwstudio-172296.jpg&fm=jpg)'}}>
         
         <div className='container flex h-16 justify-between items-center pl-32 pr-64 text-sm font-medium font-sans text-white sm:mx-auto'>
-          
+                
           <a href='#'>
             <img className="w-16 h-16 hidden 2xl:flex" src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Eo_circle_light-blue_white_letter-n.svg/1200px-Eo_circle_light-blue_white_letter-n.svg.png' />
           </a>
