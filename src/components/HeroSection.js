@@ -36,7 +36,7 @@ function HeroSection() {
         </div>
 
         <div>
-          <img className='w-3/4 h-3/4 rounded-2xl' src='https://www.shutterstock.com/image-illustration/mixer-hand-kitchen-utensil-metal-600w-2153429309.jpg' />
+          <img className='w-3/4 h-3/4 rounded-2xl' src='https://www.shutterstock.com/image-illustration/mixer-kitchen-utensil-preparation-dough-600w-2206009021.jpg' />
         </div>
 
       </div>

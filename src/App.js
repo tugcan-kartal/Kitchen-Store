@@ -1,6 +1,6 @@
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
-import Categories from './components/Categories';
+// import Categories from './components/Categories';
 import Discounts from './components/Discounts';
 import Promotions from './components/Promotions';
 
@@ -9,7 +9,7 @@ function App() {
     <>
       <Header />
       <HeroSection />
-      <Categories />
+      {/* <Categories /> */}
       <Discounts />
       <Promotions />
     </>

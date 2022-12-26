@@ -6,7 +6,7 @@ import { useWindowWidth } from '@react-hook/window-size'
 
 function NextButton ({ onClick, className }) {
 	return (
-		<button className={`${className} text-purple-700`} onClick={onClick}>
+		<button className={`${className} text-blue-700`} onClick={onClick}>
 			<AiOutlineArrowRight size={22} />
 		</button>
 	)
@@ -14,7 +14,7 @@ function NextButton ({ onClick, className }) {
 
 function PrevButton ({ onClick, className }) {
 	return (
-		<button className={`${className} text-purple-700`} onClick={onClick}>
+		<button className={`${className} text-blue-700`} onClick={onClick}>
 			<AiOutlineArrowLeft size={22} />
 		</button>
 	)
