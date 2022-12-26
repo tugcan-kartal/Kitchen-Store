@@ -7,7 +7,7 @@ function HeroSection() {
   return (
     <div>
 
-      <div className="h-[550px] bg-gradient-to-r from-indigo-900 to-indigo-800 flex justify-center items-center gap-x-32">
+      <div className="h-[550px] bg-gradient-to-r from-indigo-900 to-blue-400 flex justify-center items-center gap-x-32">
 
         <div >
         
