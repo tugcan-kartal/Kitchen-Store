@@ -7,9 +7,9 @@ function HeroSection() {
   return (
     <div>
 
-      <div className="h-[550px] bg-gradient-to-r from-indigo-900 to-blue-400 flex justify-center items-center gap-x-32">
+      <div className="h-[550px] bg-gradient-to-r from-indigo-900 to-blue-400 flex justify-center items-center gap-x-32 w-full ml-0">
 
-        <div >
+        <div>
         
           <div className='text-green-300 text-xs font-semibold mb-2'>25% OFF PROMOTIONAL SALE</div>
 
@@ -36,7 +36,7 @@ function HeroSection() {
         </div>
 
         <div>
-          <img className='w-3/4 h-3/4 rounded-2xl' src='https://www.shutterstock.com/image-illustration/mixer-kitchen-utensil-preparation-dough-600w-2206009021.jpg' />
+          <img className='w-3/4 h-3/4 rounded-2xl hidden xl:flex' src='https://www.shutterstock.com/image-illustration/mixer-kitchen-utensil-preparation-dough-600w-2206009021.jpg' />
         </div>
 
       </div>
